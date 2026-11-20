@@ -1,0 +1,156 @@
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+/* Navigation */
+.navbar {
+    min-height: 65px;
+}
+
+/* Page heading */
+h2 {
+    color: #212529;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header {
+    border-bottom: 1px solid #eeeeee;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Table */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+/* Form controls */
+.form-control,
+.form-select {
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #86a7ff;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.12);
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 15px !important;
+    }
+
+    .navbar {
+        padding: 12px !important;
+    }
+}
+
+/* Employee Table Improvements */
+.table {
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.table thead th {
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 14px 16px;
+}
+
+.table tbody td {
+    padding: 13px 16px;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Action Buttons */
+.table .btn {
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 5px 12px;
+}
+
+/* Form Improvements */
+.form-control,
+.form-select {
+    border-radius: 7px;
+    padding: 10px 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+/* Modal Improvements */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.modal-header,
+.modal-footer {
+    padding: 16px 20px;
+}
+
+/* Responsive Table */
+.table-responsive {
+    border-radius: 8px;
+}
